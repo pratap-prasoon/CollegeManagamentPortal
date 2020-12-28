@@ -1,0 +1,20 @@
+@import '../../../variables.scss';
+
+.navItemLink{
+  text-decoration: none !important;
+  transition: .3s;
+  color: white;
+
+  div {
+    color: white;
+  }
+}
+
+a.navActive div {
+  color: $primaryColor;
+}
+
+.specialColor{
+  color: $primaryColor;
+  font-weight: bold;
+}
